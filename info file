@@ -1,0 +1,78 @@
+Project Name: NYC Schools SAT Analysis
+
+Author:
+Abdul
+
+Description:
+This project performs exploratory data analysis (EDA) on SAT performance data from NYC public schools using Python and Pandas.
+
+Objectives:
+- Identify top-performing math schools
+- Calculate total SAT scores
+- Find the top 10 schools overall
+- Analyze SAT score variation across boroughs
+
+Dataset:
+schools.csv
+
+Technologies Used:
+- Python
+- Pandas
+
+Main Features:
+1. Math Performance Analysis
+   - Filters schools with math scores above 80% of the maximum SAT math score.
+
+2. Total SAT Calculation
+   - Creates a new column called total_SAT by summing:
+     - average_math
+     - average_reading
+     - average_writing
+
+3. Top 10 Schools Ranking
+   - Sorts schools by total SAT score and displays the highest-performing schools.
+
+4. Borough Statistics
+   - Groups schools by borough.
+   - Calculates:
+     - Number of schools
+     - Average SAT score
+     - Standard deviation of SAT scores
+
+5. SAT Variability Analysis
+   - Finds the borough with the largest SAT score variation.
+
+Files Included:
+- schools.csv
+- analysis.py
+- README.md
+- requirements.txt
+- info.txt
+
+Requirements:
+pandas
+
+How to Run:
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the Python script:
+   python analysis.py
+
+Expected Output:
+- List of top math schools
+- Top 10 schools by SAT score
+- Borough-level SAT statistics
+- Borough with highest score variability
+
+Learning Outcomes:
+This project helps practice:
+- Data analysis
+- Pandas DataFrames
+- Filtering and sorting data
+- GroupBy aggregation
+- Statistical calculations
+- Feature engineering
+
+Project Type:
+Beginner to Intermediate Data Analysis Project
